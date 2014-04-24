@@ -28,7 +28,7 @@ class PluginInstaller extends LibraryInstaller {
 	 * @return string
 	 */
 	protected function buildPackageName($name) {
-		list($vendor, $package) = $name;
+		list($vendor, $package) = explode('/', $name);
 		// split name string into single words
 		$package = str_replace('-', ' ', $package);
 		// uppercase the first character of each word
