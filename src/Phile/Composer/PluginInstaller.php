@@ -10,7 +10,7 @@ class PluginInstaller extends LibraryInstaller {
      * {@inheritDoc}
      */
     public function getPackageBasePath(PackageInterface $package) {
-        return 'plugins/';
+        return 'plugins' . DIRECTORY_SEPARATOR . str_replace('/', DIRECTORY_SEPARATOR, $package->getName());
     }
 
     /**
