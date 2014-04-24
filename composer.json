@@ -1,10 +1,10 @@
 {
     "name": "phile-cms/plugin-installer-plugin",
-    "version": "0.9.1",
+    "version": "1.0.0",
     "type": "composer-plugin",
     "license": "MIT",
     "description": "Composer installer plugin for phile plugins",
-    "homepage": "http://philecms.github.io/Phile/",
+    "homepage": "http://philecms.com",
     "keywords": ["cms","markdown","phile","composer"],
     "authors": [
     	{
