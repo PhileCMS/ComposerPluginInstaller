@@ -31,9 +31,11 @@ class PluginInstaller extends LibraryInstaller {
 		list($vendor, $package) = explode('/', $name);
 		// split name string into single words
 		$package = str_replace('-', ' ', $package);
+		$vendor = str_replace('-', ' ', $vendor);
 		// uppercase the first character of each word
 		$package = ucwords(trim($package));
+		$vendor = ucwords(trim($vendor));
 		// just made the first character lowercase
-		return $vendor . DIRECTORY_SEPARATOR . lcfirst(str_replace(" ", "", $package));
+		return lcfirst(str_replace(' ', '', $vendor)) . DIRECTORY_SEPARATOR . lcfirst(str_replace(" ", "", $package));
 	}
 }
