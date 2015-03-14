@@ -1,6 +1,6 @@
 {
     "name": "phile-cms/plugin-installer-plugin",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "type": "composer-plugin",
     "license": "MIT",
     "description": "Composer installer plugin for phile plugins",
