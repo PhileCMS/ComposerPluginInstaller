@@ -9,7 +9,7 @@
     	{
 		"name": "Frank Nägler",
 		"email": "mail@naegler.net",
-		"homepage": "http://www.frank-naegler.de",
+		"homepage": "https://naegler.hamburg",
 		"role": "Developer"
 	}
     ],
@@ -20,6 +20,6 @@
         "class": "Phile\\Composer\\PluginInstallerPlugin"
     },
     "require": {
-        "composer-plugin-api": "1.0.0"
+        "composer-plugin-api": "^1.0"
     }
 }
